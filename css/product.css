@@ -7,11 +7,47 @@
 Presets por defecto
 */
 body {
-  font-family: "Cooper Hewitt";
+  font-family: "CooperHewitt-Book";
   background-image: url("..img/fondo.png");
 }
 
 
+/*
+@Font Face
+*/
+
+
+@font-face {
+    font-family:"CooperHewitt-Bold";
+    src:url("../fonts/CooperHewitt-Bold.woff2") format("woff2"),url("CooperHewitt-Bold.woff") format("woff"),url("CooperHewitt-Bold.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+@font-face {
+    font-family:"CooperHewitt-BoldItalic";
+    src:url("../fonts/CooperHewitt-BoldItalic.woff2") format("woff2"),url("CooperHewitt-BoldItalic.woff") format("woff"),url("CooperHewitt-BoldItalic.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+@font-face {
+    font-family:"CooperHewitt-BookItalic";
+    src:url("../fonts/CooperHewitt-BookItalic.woff2") format("woff2"),url("CooperHewitt-BookItalic.woff") format("woff"),url("CooperHewitt-BookItalic.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+
+@font-face {
+    font-family:"CooperHewitt-Book";
+    src:url("../fonts/CooperHewitt-Book.woff2") format("woff2"),url("CooperHewitt-Book.woff") format("woff"),url("CooperHewitt-Book.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+@font-face {
+    font-family:"CooperHewitt-Thin";
+    src:url("../fonts/CooperHewitt-Thin.woff2") format("woff2"),url("CooperHewitt-Thin.woff") format("woff"),url("CooperHewitt-Thin.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+@font-face {
+    font-family:"CooperHewitt-ThinItalic";
+    src:url("../fonts/CooperHewitt-ThinItalic.woff2") format("woff2"),url("CooperHewitt-ThinItalic.woff") format("woff"),url("CooperHewitt-ThinItalic.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
 
 /*
  * Cabecera traslúcida
