@@ -1,3 +1,5 @@
-# Main Repository for m23.me
+# Pa donde!
 
-## Hi ;)
+## Core from HTML5 Pa donde! experiment
+
+Bye.
