@@ -1,3 +1,8 @@
+/*Estilos tomados del framework Bootstrap de uso libre,
+bajo licencia MIT: (https://github.com/twbs/bootstrap/blob/master/LICENSE)*/
+
+/*Esta hoja de estilos es para el slider o carrusel*/
+
 /* ESTILOS GLOBALES
 -------------------------------------------------- */
 
@@ -10,19 +15,16 @@ body {
 /* PERSONALIZACIÓN DEL CARRUSEL
 -------------------------------------------------- */
 
-/* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
   padding-right: auto;
   padding-left: auto;
 }
-/* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
 }
 
-/* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
   background-color: #777;
@@ -36,10 +38,9 @@ body {
 }
 
 
-/* MARKETING CONTENT
+/* CONTENEDORES
 -------------------------------------------------- */
 
-/* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
@@ -53,14 +54,13 @@ body {
 }
 
 
-/* Featurettes
+/* DIVISIONES
 ------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 5rem 0; 
 }
 
-/* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
@@ -68,7 +68,7 @@ body {
 }
 
 
-/* RESPONSIVE CSS
+/* CSS RESPONSIVO
 -------------------------------------------------- */
 
 @media (min-width: 40em) {
