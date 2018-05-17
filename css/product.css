@@ -13,13 +13,14 @@ Presets por defecto
 */
 body {
   font-family: "CooperHewitt-Book";
-  background-image: url("..img/fondo.png");
+  background-image: url("../img/dark-wood.jpg");
+
 }
 
 strong, b {
   
   font-family: "CooperHewitt-Bold";
-  
+
 }
 
 /*
@@ -124,10 +125,12 @@ footer{
 background-color: #1e1e1e!important;
 padding-top: 20px;
 padding-bottom: 20px;
-margin-right: 20px;
 color: #fff;
 
 }
+
+
+
 /*
  * Contenedores
  */
@@ -167,6 +170,67 @@ color: #fff;
 /*
  * Utilidades
  */
+
+.figure-caption {
+    background: #fff;
+    bottom: 80px;
+    color: #1e1e1e;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    width: 93%;
+    height: 80px;
+    padding-top: 10px;
+    padding-left:20px;
+    margin-left: 15px;
+}
+
+.figure-caption:hover {
+    opacity: 0.5;
+}
+
+.figure-img {
+
+  border: 5px solid transparent;
+  border-color: #fff;
+
+}
+
+.list-group-item.list-group-item-action.active {
+
+  background-color: #1e1e1e;
+  opacity: 0.7;
+  border-color: transparent;
+}
+
+.iconos {
+  
+  width: 32px;
+  height: 32px;
+}
+
+.list-group-item-action {
+  background-color: transparent;
+  color: #fff;
+}
+
+.col-sm-12.separador {
+  padding-top: 30px;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:100%;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 
 .border-top { border-top: 1px solid #e5e5e5; }
 .border-bottom { border-bottom: 1px solid #e5e5e5; }
