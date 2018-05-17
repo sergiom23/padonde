@@ -125,6 +125,7 @@ footer{
 background-color: #1e1e1e!important;
 padding-top: 20px;
 padding-bottom: 20px;
+margin-bottom: 0;
 color: #fff;
 
 }
@@ -218,18 +219,21 @@ color: #fff;
   padding-top: 30px;
 }
 
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:100%;
-}
+/*Mapa*/
+
+
 .map-responsive iframe{
     left:0;
     top:0;
     height:100%;
     width:100%;
     position:absolute;
+}
+
+.nosotros {
+
+  color: #fff;
+
 }
 
 .border-top { border-top: 1px solid #e5e5e5; }
