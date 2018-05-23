@@ -16,6 +16,18 @@
     <!-- Estilos -->
     <link href="css/product.css" rel="stylesheet">
     <link href="css/carousel.css" rel="stylesheet">
+
+    <!-- Forzar Javascript para el mapa-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAG_XxJt7OYEkXFTo9MmxC-ec73At7pwhs"></script>
+    <script src="js/tolimense.js"></script>
+    <script src="js/paisa.js"></script>
+    <script src="js/santafe.js"></script>
+    <script src="js/llanera.js"></script>
+    <script src="js/pacifica.js"></script>
+    <script src="js/veggie.js"></script>
+    <script src="js/cund.js"></script>
+
+
   </head>
 
   <body>
@@ -45,13 +57,13 @@
 <div class="row">
   <div class="col-sm-3">
     <div class="list-group list-group-flush" id="list-tab" role="tablist">
-      <a class="list-group-item list-group-item-action active" id="list-tolimense-list" data-toggle="list" href="#list-tolimense" role="tab" aria-controls="tolimense"><img src="img/ico_4-01.png" class="iconos" alt="Tolimense"> Tolimense</a>
+      <a class="list-group-item list-group-item-action" id="list-tolimense-list" data-toggle="list" href="#list-tolimense" role="tab" aria-controls="tolimense"><img src="img/ico_4-01.png" class="iconos" alt="Tolimense"> Tolimense</a>
       <a class="list-group-item list-group-item-action" id="list-antioquia-list" data-toggle="list" href="#list-antioquia" role="tab" aria-controls="antioquia"><img src="img/ico_1-01.png" class="iconos" alt="Antioqueña"> Antioqueña</a>
       <a class="list-group-item list-group-item-action" id="list-santafe-list" data-toggle="list" href="#list-santafe" role="tab" aria-controls="santafe"><img src="img/ico_2-01.png" class="iconos" alt="Santafereña"> Santafereña</a>
       <a class="list-group-item list-group-item-action" id="list-vegetariana-list" data-toggle="list" href="#list-vegetariana" role="tab" aria-controls="vegetariana"><img src="img/ico_3-01.png" class="iconos" alt="Vegetariana"> Vegetariana</a>
       <a class="list-group-item list-group-item-action" id="list-llanera-list" data-toggle="list" href="#list-llanera" role="tab" aria-controls="llanera"><img src="img/ico_5-01.png" class="iconos" alt="Llanera"> Llanera</a>
       <a class="list-group-item list-group-item-action" id="list-pacifico-list" data-toggle="list" href="#list-pacifico" role="tab" aria-controls="pacifico"><img src="img/ico_6-01.png" class="iconos" alt="Pacífica"> Pacífica</a>
-      <a class="list-group-item list-group-item-action" id="list-cundi-list" data-toggle="list" href="#list-cundi" role="tab" aria-controls="cundi"><img src="img/ico_7-01.png" class="iconos" alt="Cundiboyacense"> Cundiboyacense</a>
+      <a class="list-group-item list-group-item-action active" id="list-cundi-list" data-toggle="list" href="#list-cundi" role="tab" aria-controls="cundi"><img src="img/ico_7-01.png" class="iconos" alt="Cundiboyacense"> Cundiboyacense</a>
 
     </div>
   </div>
@@ -62,19 +74,51 @@
 
       <div class="tab-pane fade show active" id="list-tolimense" role="tabpanel" aria-labelledby="list-tolimense-list">
       
-      <figure class="figure">
-        <img src="img/mapazonas.png" class="figure-img img-fluid" alt="Comida Tolimense">
-      </figure>
+        <div id="mapCanvastol"></div>
 
       </div>
 
+      <div class="tab-pane fade show active" id="list-antioquia" role="tabpanel" aria-labelledby="list-antioquia-list">
+      
+        <div id="mapCanvaspaisa"></div>
+
+      </div>
+
+      <div class="tab-pane fade show active" id="list-santafe" role="tabpanel" aria-labelledby="list-santafe-list">
+      
+        <div id="mapCanvassan"></div>
+
+      </div>
+
+      <div class="tab-pane fade show active" id="list-vegetariana" role="tabpanel" aria-labelledby="list-vegetariana-list">
+      
+        <div id="mapCanvasveggie"></div>
+
+      </div>
+
+      <div class="tab-pane fade show active" id="list-llanera" role="tabpanel" aria-labelledby="list-llanera-list">
+      
+        <div id="mapCanvasllanera"></div>
+
+      </div>
+
+      <div class="tab-pane fade show active" id="list-pacifico" role="tabpanel" aria-labelledby="list-pacifico-list">
+      
+        <div id="mapCanvaspacifica"></div>
+
+      </div>
+
+      <div class="tab-pane fade show active" id="list-cundi" role="tabpanel" aria-labelledby="list-cundi-list">
+      
+        <div id="mapCanvascund"></div>
+
+      </div>
 
 </div>
 
 </div>
 
 </div>
-
 
 <div class="col-sm-12 separador"></div>
 </div>

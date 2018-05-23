@@ -181,10 +181,11 @@ width: 100%;
     left: 0;
     opacity: 0.7;
     position: absolute;
-    width: 93%;
+    width: auto;
     height: 80px;
     padding-top: 10px;
     padding-left:20px;
+    padding-right: 20px;
     margin-left: 15px;
 }
 
@@ -198,6 +199,74 @@ width: 100%;
   border-color: #fff;
 
 }
+
+/* Mapa interactivo por zonas */
+
+#mapCanvas {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+#mapCanvastol {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+#mapCanvaspaisa {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+#mapCanvassan {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+#mapCanvasllanera {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+#mapCanvasveggie {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+#mapCanvaspacifica {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+#mapCanvascund {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
 
 .list-group-item.list-group-item-action.active {
 

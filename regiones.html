@@ -16,6 +16,13 @@
     <!-- Estilos -->
     <link href="css/product.css" rel="stylesheet">
     <link href="css/carousel.css" rel="stylesheet">
+
+    <!-- Forzar JS -->
+    <script>
+      $('.carousel').carousel({
+  interval: 10
+})
+    </script>
   </head>
 
   <body>
@@ -52,76 +59,400 @@
       <a class="list-group-item list-group-item-action" id="list-llanera-list" data-toggle="list" href="#list-llanera" role="tab" aria-controls="llanera"><img src="img/ico_5-01.png" class="iconos" alt="Llanera"> Llanera</a>
       <a class="list-group-item list-group-item-action" id="list-pacifico-list" data-toggle="list" href="#list-pacifico" role="tab" aria-controls="pacifico"><img src="img/ico_6-01.png" class="iconos" alt="Pacífica"> Pacífica</a>
       <a class="list-group-item list-group-item-action" id="list-cundi-list" data-toggle="list" href="#list-cundi" role="tab" aria-controls="cundi"><img src="img/ico_7-01.png" class="iconos" alt="Cundiboyacense"> Cundiboyacense</a>
-
     </div>
+    <a style="color:#fff;" class="btn btn-lg btn-primary btn-block" href="galeria.html">Mira nuestra galería</a>
   </div>
 
-<div class="col-sm-6">
+<div class="col-sm-9">
 
   <div class="tab-content" id="nav-tabContent">
 
       <div class="tab-pane fade show active" id="list-tolimense" role="tabpanel" aria-labelledby="list-tolimense-list">
-      
-      <figure class="figure">
-        <img src="img/tolimense.jpg" class="figure-img img-fluid" alt="Comida Tolimense">
-        <figcaption class="figure-caption"><h6><strong>El viejo Rancho Tolimense</strong></h6><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></figcaption>
-      </figure>
+
+<!-- Slider -->
+      <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="first-slide figure-img" src="img/tipica/tol/tol1.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El viejo rancho tolimense</strong></h3>
+                <p><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="first-slide figure-img" src="img/tipica/tol/tol2.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El viejo rancho tolimense</strong></h3>
+                <p><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="first-slide figure-img" src="img/tipica/tol/tol3.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El viejo rancho tolimense</strong></h3>
+                <p><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="first-slide figure-img" src="img/tipica/tol/tol4.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El viejo rancho tolimense</strong></h3>
+                <p><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+<!-- Fin Slider -->
+
 
       </div>
 
       <div class="tab-pane fade" id="list-antioquia" role="tabpanel" aria-labelledby="list-antioquia-list">
   
-      <figure class="figure">
-        <img src="img/paisa.jpg" class="figure-img img-fluid" alt="Comida Tolimense">
-        <figcaption class="figure-caption"><h6><strong>El viejo Rancho Tolimense</strong></h6><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></figcaption>
-      </figure>
+<!-- Slider -->
+      <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="first-slide figure-img" src="img/tipica/ant/ant01.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El Consulado Paisa</strong></h3>
+                <p><i>2496810 / L-V 11am - 9pm / Carrera 11 # 70A - 44, Bogotá,</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="second-slide figure-img" src="img/tipica/ant/ant02.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El Consulado Paisa</strong></h3>
+                <p><i>2496810 / L-V 11am - 9pm / Carrera 11 # 70A - 44, Bogotá,</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="third-slide figure-img" src="img/tipica/ant/ant03.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El Consulado Paisa</strong></h3>
+                <p><i>2496810 / L-V 11am - 9pm / Carrera 11 # 70A - 44, Bogotá,</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="third-slide figure-img" src="img/tipica/ant/ant04.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El Consulado Paisa</strong></h3>
+                <p><i>2496810 / L-V 11am - 9pm / Carrera 11 # 70A - 44, Bogotá,</i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+<!-- Fin Slider -->
+
       
       </div>
 
       <div class="tab-pane fade" id="list-santafe" role="tabpanel" aria-labelledby="list-santafe-list">
   
-      <figure class="figure">
-        <img src="img/ajiaco.jpg" class="figure-img img-fluid" alt="Comida Tolimense">
-        <figcaption class="figure-caption"><h6><strong>El viejo Rancho Tolimense</strong></h6><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></figcaption>
-      </figure>
+<!-- Slider -->
+      <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="first-slide figure-img" src="img/tipica/sa/sa1.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El viejo rancho tolimense</strong></h3>
+                <p><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="first-slide figure-img" src="img/tipica/sa/sa2.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El viejo rancho tolimense</strong></h3>
+                <p><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="first-slide figure-img" src="img/tipica/sa/sa3.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El viejo rancho tolimense</strong></h3>
+                <p><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="first-slide figure-img" src="img/tipica/sa/sa4.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El viejo rancho tolimense</strong></h3>
+                <p><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+<!-- Fin Slider -->
       
       </div>
 
 
       <div class="tab-pane fade" id="list-vegetariana" role="tabpanel" aria-labelledby="list-vegetariana-list">
   
-      <figure class="figure">
-        <img src="img/veggie.jpg" class="figure-img img-fluid" alt="Comida Tolimense">
-        <figcaption class="figure-caption"><h6><strong>El viejo Rancho Tolimense</strong></h6><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></figcaption>
-      </figure>
+<!-- Slider -->
+      <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="first-slide figure-img" src="img/tipica/ve/ve1.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El viejo rancho tolimense</strong></h3>
+                <p><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="first-slide figure-img" src="img/tipica/ve/ve2.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El viejo rancho tolimense</strong></h3>
+                <p><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="first-slide figure-img" src="img/tipica/ve/ve3.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El viejo rancho tolimense</strong></h3>
+                <p><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="first-slide figure-img" src="img/tipica/ve/ve4.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El viejo rancho tolimense</strong></h3>
+                <p><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+<!-- Fin Slider -->
       
       </div>
 
       <div class="tab-pane fade" id="list-llanera" role="tabpanel" aria-labelledby="list-llanera-list">
   
-      <figure class="figure">
-        <img src="img/llanera.jpg" class="figure-img img-fluid" alt="Comida Tolimense">
-        <figcaption class="figure-caption"><h6><strong>El viejo Rancho Tolimense</strong></h6><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></figcaption>
-      </figure>
+<!-- Slider -->
+      <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="first-slide figure-img" src="img/tipica/car/car1.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El viejo rancho tolimense</strong></h3>
+                <p><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="first-slide figure-img" src="img/tipica/car/car2.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El viejo rancho tolimense</strong></h3>
+                <p><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="first-slide figure-img" src="img/tipica/car/car3.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El viejo rancho tolimense</strong></h3>
+                <p><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="first-slide figure-img" src="img/tipica/car/car4.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El viejo rancho tolimense</strong></h3>
+                <p><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+<!-- Fin Slider -->
       
       </div>
 
 
       <div class="tab-pane fade" id="list-pacifico" role="tabpanel" aria-labelledby="list-pacifico-list">
   
-      <figure class="figure">
-        <img src="img/pacifica.jpg" class="figure-img img-fluid" alt="Comida Tolimense">
-        <figcaption class="figure-caption"><h6><strong>El viejo Rancho Tolimense</strong></h6><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></figcaption>
-      </figure>
+<!-- Slider -->
+      <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="first-slide figure-img" src="img/tipica/pac/pac1.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El viejo rancho tolimense</strong></h3>
+                <p><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="first-slide figure-img" src="img/tipica/pac/pac2.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El viejo rancho tolimense</strong></h3>
+                <p><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="first-slide figure-img" src="img/tipica/pac/pac3.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El viejo rancho tolimense</strong></h3>
+                <p><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="first-slide figure-img" src="img/tipica/pac/pac4.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El viejo rancho tolimense</strong></h3>
+                <p><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+<!-- Fin Slider -->
       
       </div>
 
       <div class="tab-pane fade" id="list-cundi" role="tabpanel" aria-labelledby="list-cundi-list">
-  
-      <figure class="figure">
-        <img src="img/cundi.jpg" class="figure-img img-fluid" alt="Comida Tolimense">
-        <figcaption class="figure-caption"><h6><strong>El viejo Rancho Tolimense</strong></h6><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></figcaption>
-      </figure>
+
+<!-- Slider -->
+      <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="first-slide figure-img" src="img/tipica/cund/cund1.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El viejo rancho tolimense</strong></h3>
+                <p><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="first-slide figure-img" src="img/tipica/cund/cund2.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El viejo rancho tolimense</strong></h3>
+                <p><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="first-slide figure-img" src="img/tipica/cund/cund3.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El viejo rancho tolimense</strong></h3>
+                <p><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="first-slide figure-img" src="img/tipica/cund/cund4.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h3><strong>El viejo rancho tolimense</strong></h3>
+                <p><i>8523258 / L-V 10am - 9pm / Cra 53b #45 Sur - 15, Bogotá</i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+<!-- Fin Slider -->
       
       </div>
      
@@ -130,35 +461,9 @@
 
 </div>
 
-<div class="col-sm-3">
-
-
-
-      <div class="tab-pane fade show active" id="list-tolimense" role="tabpanel" aria-labelledby="list-tolimense-list">
-      
-      <div class="map-responsive">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.9068087426717!2d-74.0956317848041!3d4.610699343714136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f996c695fc71f%3A0xec8365a173b7b9d0!2sRestaurante+El+Viejo+Rancho!5e0!3m2!1ses-419!2sco!4v1526573999285" width="600" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
-
-      </div>
-
-
-
-       <div class="tab-pane fade" id="list-antioquia" role="tabpanel" aria-labelledby="list-antioquia-list">
-      
-      <div class="map-responsive">
+      <!--div class="map-responsive">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.651801960665!2d-74.06167868467827!3d4.656032996617879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a44a31450ad%3A0xa5d2df8a4e299e60!2sEl+Consulado+Paisa!5e0!3m2!1ses-419!2sco!4v1526586623746" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
-
-      </div>
-
-
-
-</div>
-
-<div class="col-sm-3">
-<a style="color:#fff;" class="btn btn-lg btn-primary btn-block" href="galeria.html">Mira nuestra galería</a>
-</div>
+      </div-->
 
 </div>
 
